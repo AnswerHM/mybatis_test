@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
 <mapper namespace="com.humin_mybatis.test.userMapper"> 
 	<select id="getUser" parameterType="int" 
-		resultType="com.humin_mybatis.test.User">
+		resultType="com.humin_mybatis.bean.User">
 		select * from users where id=#{id}
 	</select>
 </mapper>

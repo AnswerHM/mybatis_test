@@ -1,7 +1,7 @@
 /**
  * Nov 28, 2017
  */
-package com.humin_mybatis.test;
+package com.humin_mybatis.bean;
 
 /** 
  * @ClassName: User 

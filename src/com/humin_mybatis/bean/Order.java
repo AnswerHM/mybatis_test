@@ -14,6 +14,17 @@ public class Order {
 	private int id;
 	private String orderNo;
 	private float price;
+	
+	
+	public Order() {
+		super();
+	}
+	public Order(int id, String orderNo, float price) {
+		super();
+		this.id = id;
+		this.orderNo = orderNo;
+		this.price = price;
+	}
 	public int getId() {
 		return id;
 	}

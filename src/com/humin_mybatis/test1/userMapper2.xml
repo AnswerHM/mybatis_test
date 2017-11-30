@@ -3,10 +3,10 @@
 <mapper namespace="com.humin_mybatis.test1.userMapper2"> 
 
 
-	<insert id="insertUser" parameterType="com.humin_mybatis.test.User">
+	<insert id="insertUser" parameterType="com.humin_mybatis.bean.User">
 		insert into users (age,name) values (#{age},#{name});
 	</insert>
-	<update id="updateUser" parameterType="com.humin_mybatis.test.User">
+	<update id="updateUser" parameterType="com.humin_mybatis.bean.User">
 		update users set age=#{age},name=#{name} where id=#{id};
 	</update>
 	<delete id="deleteUser" parameterType="int">
@@ -15,10 +15,10 @@
 
 
 	<select id="getUser" parameterType="int" 
-		resultType="com.humin_mybatis.test.User">
+		resultType="com.humin_mybatis.bean.User">
 		select * from users where id=#{id}
 	</select>
-	<select id="getAllUser" resultType="com.humin_mybatis.test.User">
+	<select id="getAllUser" resultType="com.humin_mybatis.bean.User">
 		select * from users;
 	</select>
 	

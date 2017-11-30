@@ -9,7 +9,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.Test;
 
-import com.humin_mybatis.test.User;
+import com.humin_mybatis.bean.User;
 import com.humin_mybatis.util.MybatisUtil;
 
 /** 
@@ -19,7 +19,7 @@ import com.humin_mybatis.util.MybatisUtil;
  * @date Nov 29, 2017 11:46:55 AM 
  *  
  */
-public class Test2 {
+public class Test1 {
 	
 	@Test
 	public void testAdd(){
