@@ -23,6 +23,8 @@
 		<mapper resource="com/humin_mybatis/test/userMapper.xml" />
 		<mapper resource="com/humin_mybatis/test1/userMapper2.xml" />
 		<mapper resource="com/humin_mybatis/test2/orderMapper.xml" />
+		<mapper resource="com/humin_mybatis/test3/ClassesMapper.xml" />
+		<mapper resource="com/humin_mybatis/test4/ClassesMapper.xml" />
 		<mapper class="com.humin_mybatis.test1.UserMapper" />
 	</mappers>
 </configuration>
